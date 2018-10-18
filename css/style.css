@@ -1,18 +1,52 @@
-body{
-    font-family: 'Raleway', sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
 
-.colsp {
- background-color: aqua;
+.title {
+  font-family: "Raleway", sans-serif;
+  font-size: 4rem;
 }
 
-.title{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 4rem;
+.imres {
+  width: 100;
+  height: auto;
 }
 
-.imres{
-    width: 100;
-    height: auto;
+.bigger {
+  text-shadow: -10px 8px 4px #58686f54;
+  font-size: 15rem;
+}
+
+.dots {
+  background-image: url("../assets/dots.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h2 {
+  color: #2a8287;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.about {
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+
+nav {
+  background-color: white;
+  height: 3rem;
+}
+
+.centers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
