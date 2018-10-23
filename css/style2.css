@@ -1,0 +1,191 @@
+/*Phones*/
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  /*background-color: yellow;*/
+}
+
+a {
+  color: black;
+}
+
+h2{
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-top: 30vh;
+  text-shadow: -4px 2px 4px #a3a1a1;
+}
+
+footer{
+  height: 4vh;
+  background-color: #4CAF50;
+}
+
+/* Home */
+.inicio {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inicio-foto {
+  background: url("../assets/prueba.svg");
+  height: 100vh;
+  background-position: initial;
+  background-repeat: no-repeat;
+}
+
+.hola {
+  text-shadow: -10px 8px 15px #171a1b54;
+  font-size: 7rem;
+  background: url("../assets/prueba3.svg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.soy {
+  font-size: 2rem;
+  margin-top: -2rem;
+}
+
+
+/* About */
+.about-foto {
+  background: url("../assets/about_mobile.svg");
+  height: 100vh;
+  background-size: cover;
+  background-position: initial;
+  background-repeat: no-repeat;
+}
+
+.about-txt{
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+/* Contacto */
+
+.contacto-foto {
+  background: url("../assets/contacto.svg");
+  height: 100vh;
+  background-position: initial;
+  background-repeat: no-repeat;
+}
+
+.contacto-txt{
+  list-style: none;
+  font-size: 2.5rem;
+  line-height: 1.5rem; 
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  /*body {
+    background-color: orange;
+  }*/
+
+  .hola {
+    font-size: 11rem;
+  }
+
+  .soy {
+    font-size: 3rem;
+    margin-top: -3rem;
+  }
+
+  .contacto-foto {
+    background: url("../assets/contacto.svg");
+    height: 100vh;
+    background-size: cover;
+    background-position: initial;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Medium devices and (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  body {
+    /*background-color: red;*/
+    font-size: 14px;
+  }
+
+  h2{
+    font-size: 6rem;
+    font-weight: 500;
+    margin-top: 35vh;
+    text-shadow: -4px 2px 4px #a3a1a1;
+  }
+
+  .hola {
+    font-size: 14rem;
+  }
+
+  .soy{
+    font-size: 4rem;
+  }
+
+  /* About */
+.about-foto {
+  background: url("../assets/about_tablet.svg");
+  height: 100vh;
+  background-size: cover;
+  background-position: initial;
+  background-repeat: no-repeat;
+}
+
+.about-txt{
+  font-size: 1.7rem;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+/* Contacto*/
+.contacto-txt{
+  list-style: none;
+  font-size: 4rem;
+  line-height: 4rem; 
+}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  body {
+    /*background-color: blue;*/
+    font-size: 16px;
+  }
+
+  h2{
+    font-size: 6rem;
+    font-weight: 500;
+    margin-top: 30vh;
+    text-shadow: -4px 2px 4px #a3a1a1;
+  }
+
+  .hola {
+    font-size: 16rem;
+  }
+
+  /* About */
+.about-foto {
+  background: url("../assets/about.svg");
+  height: 100vh;
+  background-size: cover;
+  background-position: initial;
+  background-repeat: no-repeat;
+}
+
+.about-txt{
+  font-size: 1.4rem;
+  padding: 3rem;
+  margin-left: 1rem;
+}
+
+
+}
